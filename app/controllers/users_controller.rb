@@ -16,4 +16,15 @@ class UsersController < ApplicationController
   def login
 
   end
+
+  # ユーザー編集アクション
+  def edit
+
+  end
+
+  def update
+
+  end
+
+
 end
