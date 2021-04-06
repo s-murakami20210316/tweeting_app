@@ -12,16 +12,19 @@
 
   <body>
     <div class="menu-bar">
-    <div class="menus">
-      <%= link_to('Tweeting', "/" ) %>
-      <%= link_to('新規登録', "/" ) %>
-      <%= link_to('ログイン', "/" ) %>
-      <%= link_to('ログアウト', "/" ) %>
-      <%= link_to('Tweetingとは', "about" ) %>
-      <div class="copyright">
-        <p>コピーライト</p>
+      <div class="menus">
+        <%= link_to('Tweeting', "/" ) %>
+        <%= link_to('新規登録', "/" ) %>
+        <%= link_to('ログイン', "/" ) %>
+        <%= link_to('ログアウト', "/" ) %>
+        <%= link_to('新規投稿', "/" ) %>
+        <%= link_to('投稿一覧', "/" ) %>
+        <%= link_to('ユーザー一覧', "/" ) %>
+        <%= link_to('Tweetingとは', "about" ) %>
+          <div class="copyright">
+            <p>コピーライト</p>
+          </div>
       </div>
-    </div>
   </div>
     <%= yield %>
   </body>
